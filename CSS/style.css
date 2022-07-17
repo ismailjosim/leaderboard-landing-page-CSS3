@@ -9,6 +9,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
 }
 
 a {
@@ -29,4 +30,23 @@ img {
 .container {
     width: 1200px;
     margin: 0 auto;
+}
+
+/*=======================================
+        Players Section Styling Start
+=======================================*/
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.player {
+    display: flex;
+    align-items: center;
+    background-color: bisque;
+}
+
+.player img {
+    width: 100px;
+    margin-right: 20px;
 }
