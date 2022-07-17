@@ -1,0 +1,32 @@
+/*=======================================
+        Global Styling
+=======================================*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+/*=======================================
+        Reuseable Styling Start
+=======================================*/
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
