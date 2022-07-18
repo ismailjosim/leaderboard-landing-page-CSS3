@@ -24,29 +24,61 @@ img {
     width: 100%;
 }
 
+hr {
+    border: 1px solid #D1D1D1;
+}
+
 /*=======================================
-        Reuseable Styling Start
+        Reusable Styling Start
 =======================================*/
 .container {
     width: 1200px;
     margin: 0 auto;
 }
 
+.primary_heading {
+    color: #562EFF;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 40px;
+}
+
 /*=======================================
         Players Section Styling Start
 =======================================*/
+
+main .container {
+    background-color: #fff;
+    padding: 30px;
+}
+
 .players {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    margin-bottom: 30px;
 }
 
 .player {
     display: flex;
     align-items: center;
-    background-color: bisque;
 }
 
 .player img {
-    width: 100px;
+    width: 56px;
     margin-right: 20px;
+}
+
+.player_name {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+}
+
+/*=======================================
+        Blogs Section Styling Start
+=======================================*/
+.blog_section {
+    margin-top: 30px;
 }
